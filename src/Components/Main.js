@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Hero from './android.svg';
 import Hycon from './hycon-logo.png'
+import Footer from './Footer'
 class Main extends Component{
 
 
@@ -35,33 +36,93 @@ class Main extends Component{
                 <div className="row">
                     <div className="col-md-12">
                         <h3 className="text-white text-center">Meet The Team</h3>
+                        <h5 className="text-white text-center">Core Team</h5>
                     </div>
-                    <div className="col-md-4 pt-5">
+                    <div className="col-md-4 mt-4">
                     <div class="card">
-                    <h5 class="card-header">Yash Kachave (Introdructor)</h5>
+                    <h5 class="card-header">Name: Yash Kachave (Introdructor)</h5>
                     <div class="card-body">
-                        <h5 class="card-title">Founder (Lead Dev)</h5>
-                        <a href=""><i class="fab fa-telegram m-2"></i></a>
-                        <a href=""><i class="fab fa-github-alt m-2"></i></a>
+                        <h5 class="card-title"> Position : Founder (Lead Dev)</h5>
+                        <a href="https://t.me/Introdructor"><i class="fab fa-telegram m-2"></i></a>
+                        <a href="https://github.com/Introdructor"><i class="fab fa-github-alt m-2"></i></a>
                         
                     </div>
                     </div>
                     </div>
-                    <div className="col-md-4  pt-5">
+                    <div className="col-md-4  mt-4">
                     <div class="card">
-                    <h5 class="card-header">Sagar Das (Madmax )</h5>
+                    <h5 class="card-header"> Name: Sagar Das (Madmax )</h5>
                     <div class="card-body">
-                        <h5 class="card-title">Founder (Lead Dev)</h5>
-                        <a href=""><i class="fab fa-telegram m-2"></i></a>
-                        <a href=""><i class="fab fa-github-alt m-2"></i></a>
+                        <h5 class="card-title"> Position : Founder (Lead Dev)</h5>
+                        <a href="https://t.me/Prophecy_child"><i class="fab fa-telegram m-2"></i></a>
+                        <a href="https://github.com/madmax7896"><i class="fab fa-github-alt m-2"></i></a>
                        
                     </div>
                     </div>
                     </div>
-                    <div className="col-md-4  pt-5"></div>
+                    <div className="col-md-4  mt-4">
+                    <div class="card">
+                    <h5 class="card-header"> Name: Harsh (hpnightowl)</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Position : Core Developer</h5>
+                        <a href="https://t.me/hpnightowl"><i class="fab fa-telegram m-2"></i></a>
+                        <a href="https://github.com/hpnightowl"><i class="fab fa-github-alt m-2"></i></a>
+                       
+                    </div>
+                    </div>
+                    </div>
                  
                 </div> 
-
+                <div className="row">
+                    <div className="col-md-4 mt-4">
+                    <div class="card">
+                    <h5 class="card-header"> Name: Ankit Kene</h5>
+                    <div class="card-body">
+                        <h5 class="card-title"> Position : Storage Manager</h5>
+                        <a href="https://t.me/ankitkene"><i class="fab fa-telegram m-2"></i></a>
+                        <a href="https://github.com/keneankit01"><i class="fab fa-github-alt m-2"></i></a>
+                        
+                    </div>
+                    </div>
+                    </div>
+                    <div className="col-md-4 mt-4">
+                    <div class="card">
+                    <h5 class="card-header"> Name: rzlamrr</h5>
+                    <div class="card-body">
+                        <h5 class="card-title"> Position : Manager</h5>
+                        <a href="https://t.me/fakhiralkda"><i class="fab fa-telegram m-2"></i></a>
+                        <a href="https://github.com/rzlamrr"><i class="fab fa-github-alt m-2"></i></a>
+                        
+                    </div>
+                    </div>
+                    </div>
+                    <div className="col-md-4 mt-4">
+                    <div class="card">
+                    <h5 class="card-header"> Name: Ojas (Cryogenchill)</h5>
+                    <div class="card-body">
+                        <h5 class="card-title"> Position : Core Developer</h5>
+                        <a href="https://t.me/ChilledCryo"><i class="fab fa-telegram m-2"></i></a>
+                        <a href="https://github.com/CryogenChill"><i class="fab fa-github-alt m-2"></i></a>
+                        
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-4 mt-4">
+                    <div class="card">
+                    <h5 class="card-header"> Name: Kostas Giapis</h5>
+                    <div class="card-body">
+                        <h5 class="card-title"> Position : Core Developer</h5>
+                        <a href="https://t.me/Kostasgiapis"><i class="fab fa-telegram m-2"></i></a>
+                        <a href="https://github.com/tsiflimagas"><i class="fab fa-github-alt m-2"></i></a>
+                    </div>
+                    </div>
+                    </div>
+                 
+                </div>
+                
+                <Footer/>
             </div>
        
           

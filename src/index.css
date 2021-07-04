@@ -15,3 +15,11 @@ body {
 #paragraph{
   font-weight: bold;
 }
+
+.device{
+  font-weight: bold;
+  color:black;
+}
+.card-header{
+  text-decoration: none;
+}
