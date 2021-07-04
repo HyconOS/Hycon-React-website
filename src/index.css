@@ -25,5 +25,23 @@ body {
 }
 
 .width{
-  height:140px;
+  height:158px;
+}
+.width-maintainer{
+  height:190px;
+}
+
+.image{
+  border-radius: 50%;
+}
+
+#card{
+  border-radius: 15px;
+}
+label{
+  font-weight: bold;
+}
+.form-link{
+  font-weight: bold;
+  text-decoration: none;
 }

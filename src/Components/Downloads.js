@@ -38,7 +38,7 @@ class Downloads extends Component{
                               <>
                               <div className="col-md-2"></div>
                                 <div className="col-md-8 form-group m-2" key={index}>
-                                <div className="card bordered">
+                                <div className="card bordered" id="card">
                                     <a className="card-header text-primary"> Maintainer Name : {devices.maintainer}  </a>
                                     <div className="card-body">
                                     <p className="text-danger"> <span className="device">Device :</span> {devices.filename} </p>
