@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import Hero from './android.svg';
 import Hycon from './hycon-logo.png'
 import Footer from './Footer'
@@ -12,7 +13,7 @@ class Main extends Component{
                  <div className="col-md-6" >
                    <h1 className="text-white" id="main-heading">HyconOS</h1>
                    <p className="text-white" id="paragraph">We believe in providing an enriching useful experience without having a soup of features.</p>
-                   <button className="btn btn-primary">Download</button>  
+                   <Link to="/downloads" className="btn btn-primary">Download</Link>  
                  </div>
                  <div className="col-md-6">
                      <img src={Hero} className="img-fluid" id="hero"/>
@@ -122,7 +123,9 @@ class Main extends Component{
                  
                 </div>
                 
+                <div className="mt-2">
                 <Footer/>
+                </div>
             </div>
        
           
