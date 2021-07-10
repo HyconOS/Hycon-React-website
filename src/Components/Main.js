@@ -74,6 +74,7 @@ class Main extends Component{
                   <div className="col-md-3 mt-4">
                  <img src={Screenshot8} className="img-fluid" width="170" height="170" alt="screenshot" title="screenshot"/>    
                   </div>
+                  <Ad/>
                 </div>
                 <div className="row mt-4">
                     <div className="col-md-12 pt-3">
@@ -170,6 +171,7 @@ class Main extends Component{
                         <a href="https://github.com/thephotogenicbug/"><i class="fab fa-github-alt m-2 fa-2x"></i></a>
                     </div>
                     </div>
+                    <Ad/>
                     </div>
                  
                 </div>
@@ -395,6 +397,7 @@ class Main extends Component{
                         <a href="https://github.com/iamthecloverly"><i class="fab fa-github-alt m-2 fa-2x"></i></a>
                     </div>
                     </div>
+                    <Ad/>
                     </div>
                 </div>
                 <div className="row mt-3">
