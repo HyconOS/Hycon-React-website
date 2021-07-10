@@ -397,7 +397,7 @@ class Main extends Component{
                     </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row mt-3">
                     <div className="col-md-12 text-center text-white">
                      <h6>Changelog</h6>
                     </div>
