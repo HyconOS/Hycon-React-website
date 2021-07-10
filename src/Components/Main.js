@@ -33,8 +33,8 @@ class Main extends Component{
                      <div className="col-md-6">
                          <img src={Hycon} className="logo" alt="logo" title="logo" />
                      </div>
-                     <div className="col-md-6 mt-5">
-                     <p className="text-justify text-white mt-2" id="paragraph">
+                     <div className="col-md-6 mt-5 ">
+                     <p className="text-justify text-white mt-2" id="paragraph" >
                         HyconOS focuses on having a balance of features and simplicity. We believe in providing an enriching useful experience without having a soup of features. 
                         Our team comprises of beginners as well as industry veterans. Our working pattern is quite flexible. Under the guidance of our skillful leaders, 
                         newcomers are welcome and are also encouraged to try things and develop their skills
