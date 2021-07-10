@@ -46,7 +46,6 @@ class Main extends Component{
                 <div className="row">
                 <div className="col-md-12 text-center text-white">
                  <h3 >Screenshots</h3> 
-                 <Ad/>  
                 </div>  
                 
                 </div> 
@@ -115,7 +114,6 @@ class Main extends Component{
                     </div>
                     </div>
                     </div>
-                    <Ad/> 
                 </div> 
                 <div className="row">
                     <div className="col-md-4 mt-4">
